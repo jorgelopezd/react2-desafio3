@@ -1,0 +1,14 @@
+#root {
+
+}
+
+.navbarpoke{
+  width: 100%;
+  background-color:#58585a;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.pokelink{
+  margin: 10px;
+}
