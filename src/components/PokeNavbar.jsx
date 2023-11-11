@@ -7,15 +7,15 @@ const PokeNavbar = () => {
   return (
     <Navbar className='navbarpoke'>
       <Navbar.Brand>
-        <img src={logolacacion} width='50px' alt='logo de pokelocacion' />
+        <img src={logolacacion} className='logonavbar' alt='logo de pokelocacion' />
       </Navbar.Brand>
 
       <div className='pokelink d-flex links'>
-        <NavLink className='nav-link' activeClassName='active' to='/home'>
+        <NavLink className='link' activeClassName='active' to='/home'>
           Home
         </NavLink>
         ----
-        <NavLink className='nav-link' activeClassName='active' to='/Pokemon'>
+        <NavLink className='link' activeClassName='active' to='/Pokemones'>
           Pokemones
         </NavLink>
       </div>
